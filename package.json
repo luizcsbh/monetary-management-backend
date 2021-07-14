@@ -1,0 +1,43 @@
+{
+  "name": "monetary-management-backend",
+  "version": "1.1.1",
+  "description": "Personal monetary management application",
+  "main": "src/loader.js",
+  "scripts": {
+    "dev": "nodemon",
+    "production": "pm2 start src/loader.js --name monetary-management-backend"
+  },
+  "author": {
+    "name": "Luiz Santos",
+    "email": "luizcsbh@gmail.com",
+    "url": "https://about.me/luizcsbh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/luizcsbh/monetary-management-backend.git"
+  },
+  "bugs": {
+    "url": "https://github.com/luizcsbh/monetary-management-backend/issues"
+  },
+  "homepage": "https://github.com/luizcsbh/monetary-management-backend#readme",
+  "keywords": [],
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "5.0.0",
+    "body-parser": "1.18.3",
+    "express": "4.16.3",
+    "express-query-int": "3.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "mongoose": "^5.13.2",
+    "mongoose-paginate": "5.0.3",
+    "node-restful": "^0.1.17",
+    "pm2": "^5.1.0"
+  },
+  "engines": {
+    "node": "10.x"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
