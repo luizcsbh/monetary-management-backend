@@ -8,7 +8,6 @@
 [![commit activity](https://img.shields.io/github/commit-activity/m/luizcsbh/monetary-management-backend)](https://github.com/luizcsbh/monetary-management-backend/commits)
 [![last commit](https://img.shields.io/github/last-commit/luizcsbh/monetary-management-backend)](https://github.com/luizcsbh/monetary-management-backend/commits)
 [![version](https://img.shields.io/github/package-json/v/luizcsbh/monetary-management-backend)](https://github.com/luizcsbh/monetary-management-backend/blob/master/package.json)
-[![Netlify Status](https://api.netlify.com/api/v1/badges/f87c86e2-6b64-454b-b8c6-1b9a05e40c38/deploy-status)](https://app.netlify.com/sites/monetary-management-backend/deploys)
 [![twwiter follow](https://img.shields.io/twitter/follow/luizcs?style=social)](https://twitter.com/luizcs)
 
 
@@ -43,28 +42,6 @@ npm run dev
 
 To access the server type in the browser: http://localhost:3003/api/rendimentos
 
-## Dependencies
-
-```node
-
-body-parser: "^1.15.2",
-express: "^4.14.0",
-express-query-int: "^1.0.1",
-lodash: "^4.17.4",
-mongoose: "^5.5.8",
-mongoose-paginate: "^5.0.3",
-node-restful: "^0.2.5",
-pm2: "^2.1.5"
-
-```
-
-## Development Dependencies 
-
-```node
-
- nodemon: "^1.11.0"
-
-```
 
 ## Author
 
